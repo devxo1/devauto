@@ -702,6 +702,7 @@ local Cashiers = workspace.Cashiers
 local Player = Players.LocalPlayer
 
 if (_G.AutofarmSettings.Credits ~= "iku cautofarm by benz.zip/benzonati | original by @trans") then 
+	
 	task.wait(10)
 	Cashiers:Destroy()
 end
